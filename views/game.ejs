@@ -1,0 +1,21 @@
+<%- include("partials/header.ejs") %>
+<p id="total-score">Total Score: <%= locals.totalCorrect ? totalCorrect : "0" %></p>
+<p id="flag-picture"><%= question.flag %></p>
+<form class="submit-form" action="/submit" method="post">
+  <div class="answer-container">
+    <input
+      type="text"
+      name="answer"
+      id="userInput"
+      placeholder="Enter the country"
+      autofocus
+      autocomplete="off"
+      required
+    />
+  </div>
+  <button type="submit" id="submit-button">
+    <a>Submit</a>
+  </button>
+</form>
+
+<%- include("partials/footer.ejs") %>
