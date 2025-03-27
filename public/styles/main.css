@@ -1,0 +1,139 @@
+body {
+  font-family: sans-serif;
+  margin: 0;
+  background-color: #e4e4c4;
+  color: #2c2c2a;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+}
+
+.main {
+  background-color: #fff;
+  padding: 30px;
+  border-radius: 10px;
+  box-shadow: 0 14px 14px rgba(0, 0, 0, 0.15);
+  text-align: center;
+  width: 50%;
+}
+
+.main h1 {
+  margin-bottom: 10px;
+}
+
+.main p {
+  color: #666;
+  margin-bottom: 20px;
+}
+
+.score {
+  background-color: #f9f9fa;
+  padding: 15px 25px;
+  border-radius: 8px;
+  margin-bottom: 20px;
+  display: inline-block;
+}
+
+.score h3 {
+  margin: 0;
+  font-size: 1.1rem;
+  color: #555;
+}
+
+.score span#best-score-value {
+  font-weight: bold;
+}
+
+button#start-button,
+button#submit-button {
+  padding: 0;
+  border: none;
+  background: none;
+  cursor: pointer;
+  display: inline-block;
+}
+
+button#start-button a,
+button#submit-button a {
+  display: block;
+  padding: 10px 25px;
+  font-size: 1.1rem;
+  background-color: #3a7948;
+  color: white;
+  border-radius: 6px;
+  text-decoration: none;
+  transition: background-color 0.2s ease-in-out;
+  text-shadow: 2px 2px 5px rgb(121, 121, 124);
+}
+
+button#start-button a:hover {
+  background-color: #1c8d37;
+}
+footer {
+  padding: 15px;
+  font-size: 0.9rem;
+  color: #3f3d3d;
+  position: absolute;
+  bottom: 0;
+  left: 10px;
+  width: 100%;
+}
+
+.answer-container {
+  margin-bottom: 20px;
+  text-align: center;
+}
+
+#userInput {
+  padding: 10px;
+  font-size: 1rem;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  width: 80%;
+  max-width: 300px;
+  box-sizing: border-box;
+}
+
+#userInput:focus {
+  outline: none;
+  border-color: #1e2a36;
+  box-shadow: 0 0 5px rgba(44, 54, 65, 0.5);
+}
+
+button#submit-button {
+  padding: 0;
+  border: none;
+  background: none;
+  cursor: pointer;
+  display: inline-block;
+}
+
+button#submit-button a {
+  display: block;
+  padding: 10px 25px;
+  font-size: 1.1rem;
+  background-color: #3a7948;
+  color: white;
+  border-radius: 6px;
+  text-decoration: none;
+  transition: background-color 0.2s ease-in-out;
+  text-shadow: 2px 2px 5px rgb(121, 121, 124);
+}
+
+button#submit-button a:hover {
+  background-color: #1c8d37;
+}
+
+#total-score {
+  font-size: 1.2rem;
+  margin-bottom: 0.5rem;
+  color: #444;
+  text-align: left;
+}
+
+#flag-picture {
+  font-size: 5rem;
+  margin-bottom: 2rem;
+  text-align: center;
+}
