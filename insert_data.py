@@ -8,11 +8,11 @@ load_dotenv()
 def connect_to_db():
     try:
         conn = Connection(
-            host=os.environ.get("DB_HOST_DW"),
-            port=os.environ.get("DB_PORT_DW"),
-            database=os.environ.get("DB_DW"),
-            user=os.environ.get("DB_USER_DW"),
-            password=os.environ.get("DB_PASSWORD_DW"),
+            host=os.environ.get("DB_HOST"),
+            port=os.environ.get("DB_PORT"),
+            database=os.environ.get("DB"),
+            user=os.environ.get("DB_USER"),
+            password=os.environ.get("DB_PASSWORD"),
         )
         return conn
     except Exception as e:
