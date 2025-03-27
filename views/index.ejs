@@ -1,0 +1,18 @@
+<%- include("partials/header.ejs") %>
+
+      <h1>Country Flags Quiz</h1>
+      <p>Guess the countries based on their flags!</p>
+      <div class="score">
+        <h3>
+          Best Score:
+          <span id="best-score-value"
+            ><%= locals.bestScore ? bestScore : "0" %></span
+          >
+        </h3>
+      </div>
+      <button type="button" id="start-button">
+        <a href="/play">Start Quiz</a>
+      </button>
+
+<%- include("partials/footer.ejs") %>
+
