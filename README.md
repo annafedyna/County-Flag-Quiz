@@ -37,7 +37,7 @@ Follow these steps to get the quiz running on your local machine:
 
 1.  **Clone the repository:**
     ```bash
-    git clone <YOUR_REPOSITORY_URL>
+    git clone https://github.com/annafedyna/County-Flag-Quiz.git
     cd County-Flag-Quiz
     ```
 2.  **Install dependencies:**
